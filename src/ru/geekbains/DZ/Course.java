@@ -5,22 +5,12 @@ import java.util.Random;
 public class Course {
     private String test1;
     private String test2;
+    public String results = "";
 
     public Course(String test1, String test2) {
         this.test1 = test1;
         this.test2 = test2;
     }
-
-//    public void setChallenges(String[] challenges) {
-//        this.challenges = challenges;
-//    }
-
-//            {this.test1, this.test2}; // массив препятствий
-
-//                        public void doIt(Class team) {
-//
-//                            return;
-//                        }
 
 
     public String doIt(Team team) {
@@ -33,7 +23,7 @@ public class Course {
                 team.participant3,
                 team.participant4
         };
-        String results = "Results:\n";
+        results = "Results:\n";
 
         Random random = new Random();
         for (String i : challenges) {

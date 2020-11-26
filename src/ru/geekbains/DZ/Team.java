@@ -26,8 +26,9 @@ public class Team {
 
     }
 
-    public void showResults(Course) {
-        System.out.println(Cou);
-    }
+//    public void showResults(doIt.results) {
+//        private String results =
+//        System.out.println(results);
+//    }
 
 }

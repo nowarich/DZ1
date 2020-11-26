@@ -7,8 +7,8 @@ public class Main {
         Team team = new Team("DreamTeam", "Ivan", "Zhenya", "Vasiliy", "Mike"); // Создаем команду
 
         team.getNames();
-        c.doIt(team); // Просим команду пройти полосу
-        team.showResults(); // Показываем результаты
+        System.out.println(c.doIt(team)); // Просим команду пройти полосу
+//        team.showResults(); // Показываем результаты
 
     }
 }
