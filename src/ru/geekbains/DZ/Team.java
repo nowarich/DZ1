@@ -26,9 +26,9 @@ public class Team {
 
     }
 
-//    public void showResults(doIt.results) {
-//        private String results =
-//        System.out.println(results);
-//    }
+    public void showResults() {
+        String results = Course.getResults();
+        System.out.println("And at long last... " + results);
+    }
 
 }

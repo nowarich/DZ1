@@ -5,13 +5,17 @@ import java.util.Random;
 public class Course {
     private String test1;
     private String test2;
-    public String results = "";
+    public static String results;
 
     public Course(String test1, String test2) {
         this.test1 = test1;
         this.test2 = test2;
     }
 
+
+    public static String getResults() {
+        return results;
+    }
 
     public String doIt(Team team) {
 
